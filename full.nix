@@ -11,9 +11,15 @@
     hlsearch = false;
     incsearch = true;
   };
+
   globals = {
     mapleader = " ";
     maplocalleader = " ";
+  };
+
+  colorschemes.nightfox = {
+    enable = true;
+    flavor = "carbonfox";
   };
 
   plugins = {
