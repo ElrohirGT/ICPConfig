@@ -27,6 +27,7 @@
         function {
           inherit system;
           pkgs = import pkgs {
+            inherit system;
             config.allowUnfree = true;
             # overlays = [];
           };
