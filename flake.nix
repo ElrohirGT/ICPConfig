@@ -65,6 +65,11 @@
           inherit system;
           module = ./full.nix;
         };
+
+        minimal = buildVimModule {
+          inherit system;
+          module = ./minimal.nix;
+        };
       };
     };
   };
